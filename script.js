@@ -1,11 +1,18 @@
-import projectsJson from "./projects.json" with { type: 'json' };
 /** @type {HTMLDivElement} */ 
 const projListDiv = document.querySelector('.container')
 /** @type {HTMLDivElement} */
 const descDiv = document.querySelector('.discription')
 
-const projectsArray = projectsJson.projects;
-projectsArray.forEach(project => { genProjectDiv(project) });
+async function fetchProjectsJSON() {
+    const response = await fetch('./projects.json');
+    const projectsJson = await response.json();
+    return projectsJson;
+}
+  
+fetchProjectsJSON().then(projectsJson => {
+    const projectsArray = projectsJson.projects;
+    projectsArray.forEach(project => { genProjectDiv(project) });
+});
 
 function genProjectDiv(project) {
     const projectDiv = document.createElement("div");

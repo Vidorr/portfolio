@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-This project compiles my various projects and learning excersises into a professional portfolio.
+This project compiles my various projects and learning exercises into a professional portfolio.
 
 Intended use:
 Present my work in an organized manner for prospective employers to review.
