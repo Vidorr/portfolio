@@ -1,0 +1,47 @@
+{ "projects" :[
+    {
+        "name" : "Rock, Paper, Scissors",
+        "liveURL" : "https://vidorr.github.io/rps/",
+        "githubURL" : "https://github.com/Vidorr/rps",
+        "desc" : "Just a simple Rock Paper Scissors game in browser.",
+        "imgSrc" : "RPS_Shot.png",
+        "languages" : ["HTML","JS"],
+        "complete" : true
+    },
+    {
+        "name" : "Portfolio",
+        "liveURL" : "",
+        "githubURL" : "https://github.com/Vidorr/portfolio",
+        "desc" : "You are looking at it!",
+        "imgSrc" : "JF Logo.png",
+        "languages" : ["HTML","CSS","JS","JSON"],
+        "complete" : false
+    },
+    {
+        "name" : "Etch-a-Sketch",
+        "liveURL" : "",
+        "githubURL" : "",
+        "desc" : "",
+        "imgSrc" : "coming_soon.jpg",
+        "languages" : [""],
+        "complete" : false
+    },
+    {
+        "name" : "Calculator",
+        "liveURL" : "",
+        "githubURL" : "",
+        "desc" : "",
+        "imgSrc" : "coming_soon.jpg",
+        "languages" : [""],
+        "complete" : false
+    },
+    {
+        "name" : "Tic-Tac-Toe",
+        "liveURL" : "",
+        "githubURL" : "",
+        "desc" : "",
+        "imgSrc" : "coming_soon.jpg",
+        "languages" : ["HTML","CSS","Ruby"],
+        "complete" : false
+    }
+]}
